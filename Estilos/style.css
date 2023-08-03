@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --cor0: #479cc4;
+    --cor1: #3a74d8;
+    --cor2: #176dd0;
+    --cor3: #140b93;
+    --cor4: transparent;
+    --cor5: #ffff;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #140b93;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+
+    position: relative;
+}
+
+#login {
+    width: 300px;
+    height: 500px;
+
+    display: block;
+
+
+    background-color: white;
+    border-radius: 20px;
+    
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    
+
+}
+
+#login  #imagem {
+    background-image: url(../imagens/pexels-jakub-novacek-924824.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+
+    display: block;
+    height: 200px;
+}
+
+#login > #form {
+    padding: 10px;
+    
+}
+
+#form >  h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form > p {
+    text-align: justify;
+}
+.accs {
+    background-color: #ba2fec;
+    padding: ;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 39px;
+
+}
+#iemail {
+    padding-top: 8px;
+    padding-bottom: 9px;
+    width: 249px;
+    border: 1px solid black;
+    background-color:  #479cc4;
+    border-radius: 7px;
+}
+
+#isenha {
+    padding-top: 8px;
+    padding-bottom: 9px;
+    width: 249px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: #479cc4;
+}
