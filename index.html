@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="Estilos/style.css">
+    <link rel="stylesheet" href="Estilos/media.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
@@ -18,17 +19,21 @@
                 <p>Seja Bem-vindo(a) Novanmente. Faça Login com A senha de acesso para fazer as Configurações.</p>
                 <form action="" method="post">
                     <p class="accs">
-                        <label for="email"><span class="material-icons">person</span></label>
-                        <input type="email" name="email" id="iemail">
+                        <label for="email">
+                            <span class="material-icons">person</span>
+                        </label>
+                        <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="Seu E-mail" minlength="1" maxlength="20">
                     </p>
                     <p class="accs">
-                        <label for="senha"><span class="material-icons">key</span></label>
-                        <input type="password" name="senha" id="isenha">
+                        <label for="senha">
+                            <span class="material-icons">key</span>
+                        </label>
+                        <input type="password" name="senha" id="isenha" required value="" autocomplete="current-password" placeholder="Sua Senha" min="1" maxlength="8">
                     </p>
 
                     <p>
-                        <input type="submit" value="Entrar">
-                        <input type="reset" value="Esqueci A senha">
+                        <input  id="acesso" type="submit" value="Entrar">
+                        <input id="reset" type="reset" value="Esqueci A senha">
                     </p>
 
 
