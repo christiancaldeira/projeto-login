@@ -48,6 +48,8 @@ main {
     left: 50%;
     transform: translate(-50%,-50%);
     overflow: hidden;
+
+    transition: width .3s, heigth .3s;
     
 
 }
