@@ -159,7 +159,8 @@ main {
 #mail {
     position: absolute;
     top: 50%;
-    left: 63%;
+    left: 75%;
+    transform: translateY(-50%);
 
 
 
