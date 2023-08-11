@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+/*Configurações Mobile*/
+
 * {
     margin: 0%;
     padding: 0%;
@@ -31,6 +34,8 @@ main {
 
     
 }
+
+/*Configurações de Entradas*/
 
 #login {
     width: 300px;
@@ -118,6 +123,11 @@ main {
     background-color: #479cc4;
 }
 
+/*...*/
+
+
+/*Configuraçoes de Saída*/
+
 #acesso {
     display: block;
     margin-top: 6px;
@@ -130,8 +140,6 @@ main {
     
     
 }
-
-
 
 #reset {
     margin-top: 2px;
@@ -149,6 +157,11 @@ main {
 #reset:hover {
     background-color: #7fcff5;
 }
+/*...*/
+
+
+/*Configurações de Icones*/
+
 
 .material-icons  {
     position: absolute;
