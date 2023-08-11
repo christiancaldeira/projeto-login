@@ -142,11 +142,30 @@ main {
 }
 
 #reset {
-    margin-top: 2px;
-    padding: 8px;
-    border-radius: 10px;
+    display: block;
     width: 280px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 8px;
+
+    text-align: center;
+    color: black;
+    text-decoration: none;
     border: 1px solid #65a5c2;
+
+    position: relative;
+}
+
+#mail {
+    position: absolute;
+    top: 50%;
+    left: 63%;
+
+
+
+    color: var(--cor3);
+
+
 }
 
 #acesso:hover {
