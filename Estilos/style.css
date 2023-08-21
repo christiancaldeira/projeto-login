@@ -51,11 +51,12 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+
     overflow: hidden;
 
+    transform: translate(-50%,-50%);
     transition: width .3s, heigth .3s;
-    
+
 
 }
 
@@ -96,8 +97,6 @@ main {
     position: absolute;
     top: 50%;
     left: 56%;
-    transform: translate(-50%,-50%);
-
 
     width: 245px;
     padding: 9.8px;
@@ -106,14 +105,13 @@ main {
     border-radius: 7px;
 
 
-    
+    transform: translate(-50%,-50%);
 }
 
 #isenha {
     position: absolute;
     top: 50%;
     left: 56%;
-    transform: translate(-50%,-50%);
 
 
     width: 245px;
@@ -121,6 +119,8 @@ main {
     border-radius: 7px;
     border: 1px solid black;
     background-color: #479cc4;
+
+    transform: translate(-50%,-50%);
 }
 
 /*...*/
@@ -160,13 +160,11 @@ main {
     position: absolute;
     top: 50%;
     left: 75%;
-    transform: translateY(-50%);
-
-
 
     color: var(--cor3);
-
-
+    
+    transform: translateY(-50%);
+    
 }
 
 #acesso:hover {
@@ -187,15 +185,12 @@ main {
     position: absolute;
     top: 50%;
     left: 5px;
-    transform: translateY(-50%);
-
-
 
     width: 30px;
     text-align: center;
     color: white;
 
 
-
+    transform: translateY(-50%);
 
 }
